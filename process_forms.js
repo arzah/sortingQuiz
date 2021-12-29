@@ -329,7 +329,7 @@ function answers() {
     n.appendChild(o);  
     answer.appendChild(n);
 
-    y.setAttribute("src", "images/ravenclaw.jpg");
+    y.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/ravenclaw.png?raw=true");
     y.setAttribute("width", "304");
     y.setAttribute("height", "228");
     y.setAttribute("alt", "Ravenclaw");
@@ -345,7 +345,7 @@ function answers() {
     l.appendChild(m);  
     answer.appendChild(l);
 
-    z.setAttribute("src", "images/hufflepuff.jpg");
+    z.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/slytherin.png?raw=true");
     z.setAttribute("width", "304");
     z.setAttribute("height", "228");
     z.setAttribute("alt", "Hufflepuf");
@@ -363,7 +363,7 @@ function answers() {
       answer.appendChild(x);
 
 
-    a.setAttribute("src", "images/slytherin.jpg");
+    a.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/slytherin.png?raw=true");
     a.setAttribute("width", "304");
     a.setAttribute("height", "228");
     a.setAttribute("alt", "Slytherin");
