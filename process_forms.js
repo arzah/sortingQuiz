@@ -404,10 +404,46 @@ function answers() {
     answerbox.appendChild(y);
         }
         if (Ravenclaw == Slytherin) {
-            
+                var y = document.createElement("IMG");
+    var yTwo = document.createElement("IMG");
+
+    var n = document.createElement("FIGCAPTION");
+    var o = document.createTextNode("Congratulations!");
+    n.appendChild(o);  
+    answer.appendChild(n);
+
+    yTwo.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/slytherin.png?raw=true");
+    yTwo.setAttribute("width", "304");
+    yTwo.setAttribute("height", "228");
+    yTwo.setAttribute("alt", "Ravenclaw");
+    answerbox.appendChild(yTwo);
+        
+    y.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/ravenclaw.png?raw=true");
+    y.setAttribute("width", "304");
+    y.setAttribute("height", "228");
+    y.setAttribute("alt", "Ravenclaw");
+    answerbox.appendChild(y);
         }
         if (Ravenclaw == Gryffindor) {
+                var y = document.createElement("IMG");
+    var yTwo = document.createElement("IMG");
 
+    var n = document.createElement("FIGCAPTION");
+    var o = document.createTextNode("Congratulations!");
+    n.appendChild(o);  
+    answer.appendChild(n);
+
+    yTwo.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
+    yTwo.setAttribute("width", "304");
+    yTwo.setAttribute("height", "228");
+    yTwo.setAttribute("alt", "Ravenclaw");
+    answerbox.appendChild(yTwo);
+        
+    y.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/ravenclaw.png?raw=true");
+    y.setAttribute("width", "304");
+    y.setAttribute("height", "228");
+    y.setAttribute("alt", "Ravenclaw");
+    answerbox.appendChild(y);
         }
         
     }
