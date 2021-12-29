@@ -296,7 +296,8 @@ function answers() {
 
 
     
-      if (total == 9){
+    if (total == 9) {
+          /*
 
                     //var alexander = document.createTextNode("First name is " +document.info.elements["fname"].value +
                     //" and last name is " + document.info.elements["lname"].value + " Your email address is " + document.info.elements["email"].value);
@@ -393,7 +394,7 @@ function answers() {
                     var dixHuit = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
                     //Peggy.appendChild(dixHuit);
                   }
-              }
+              } */
             
 
 
