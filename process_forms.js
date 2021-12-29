@@ -402,7 +402,7 @@ function answers() {
     answerbox.appendChild(y);
     }
     
-    if (Hufflepuf > maxscore && Hufflepuf == Gryffindor || Hufflepuf == Ravenclaw || Hufflepuf == Slytherin) { 
+    if (Gryffindor > maxscore && Gryffindor == Hufflepuf || Gryffindor == Ravenclaw || Gryffindor == Slytherin) { 
     var r = document.createTextNode("You have attributes of two houses");
     answerbox.appendChild(r);
     var y = document.createElement("IMG");
