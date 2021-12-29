@@ -370,6 +370,22 @@ function answers() {
     answer.appendChild(a);
 
     }
+    if (Ravenclaw == Hufflepuf) { 
+    var r = document.createTextNode("You have attributes of two houses");
+    answerbox.appendChild(r);
+    var y = document.createElement("IMG");
+
+    var n = document.createElement("FIGCAPTION");
+    var o = document.createTextNode("Congratulations!");
+    n.appendChild(o);  
+    answer.appendChild(n);
+
+    y.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/ravenclaw.png?raw=true");
+    y.setAttribute("width", "304");
+    y.setAttribute("height", "228");
+    y.setAttribute("alt", "Ravenclaw");
+    answerbox.appendChild(y);
+    }
       }else{
         var one = document.getElementById('answer');
         var two = document.createTextNode('You did not fill everything. Refresh and do it again.');
