@@ -379,10 +379,11 @@ function answers() {
         
         
     if (Ravenclaw > maxscore && Ravenclaw == Gryffindor || Ravenclaw == Hufflepuf || Ravenclaw == Slytherin) { 
-    var r = document.createTextNode("You have attributes of two houses");
+        var r = document.createTextNode("You have attributes of two houses");
+        var testing = 1;
     answerbox.appendChild(r);
         
-        if (Ravenclaw == Hufflepuf) {
+        if (Ravenclaw == Hufflepuf && testing == 1) {
                 var y = document.createElement("IMG");
     var yTwo = document.createElement("IMG");
 
@@ -403,7 +404,7 @@ function answers() {
     y.setAttribute("alt", "Ravenclaw");
     answerbox.appendChild(y);
         }
-        if (Ravenclaw == Slytherin) {
+        if (Ravenclaw == Slytherin && testing == 1) {
                 var y = document.createElement("IMG");
     var yTwo = document.createElement("IMG");
 
@@ -424,7 +425,7 @@ function answers() {
     y.setAttribute("alt", "Ravenclaw");
     answerbox.appendChild(y);
         }
-        if (Ravenclaw == Gryffindor) {
+        if (Ravenclaw == Gryffindor && testing == 1) {
     var y = document.createElement("IMG");
     var yTwo = document.createElement("IMG");
 
