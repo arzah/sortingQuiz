@@ -2,7 +2,6 @@ var validFlag = false;
 var help = 0;
 var idk = 0;
 var what = 0;
-var works = 0;
 
 
 
@@ -13,8 +12,6 @@ function setupForm() {
     document.info.lname.addEventListener("blur",lnameBlur, false);
     document.info.email.addEventListener("focus",emailFocus, false);
     document.info.email.addEventListener("blur",emailBlur, false);
-    document.info.address.addEventListener("focus",addyFocus, false);
-    document.info.address.addEventListener("blur",addyBlur, false);
     document.info.submit.addEventListener("click",answers, false);
 
 
@@ -70,22 +67,6 @@ function emailFocus(){
 function emailBlur(){
     what++
     validateData();
-}
-function addyFocus(){
-    var q4 = document.getElementById('q4');
-    var span = q4.getElementsByTagName('span');
-    span[0].firstChild.nodeValue = "Please enter your CAH url (must contain ~ and begin with http://)";
-    var y = document.getElementById('fail4')
-    y.style.display="none"; 
-    var x = document.getElementById('check4');
-    x.style.display="none"; 
-
-
-}
-function addyBlur(){
-   works++
-   validateData();
-
 }
 
 
@@ -175,31 +156,6 @@ function validateData(){
 
     }
 
-    if(works>0){
-  
-    var Ham = /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/;
-    var dress = document.info.address.value;
-    if (dress.match(Ham) != null){
-        var q4 = document.getElementById('q4');
-        var span = q4.getElementsByTagName('span');
-        span[0].firstChild.nodeValue = "Success!";
-
-        var x = document.getElementById('check4');
-        x.style.display="block"; 
-        var y = document.getElementById('fail4')
-        y.style.display="none"; 
-        validFlag = true;
-    } else{
-        var y = document.getElementById('fail4')
-        y.style.display="block"; 
-        var x = document.getElementById('check4');
-        x.style.display="none"; 
-        var q4 = document.getElementById('q4');
-        var span = q4.getElementsByTagName('span');
-        span[0].firstChild.nodeValue = "Error!";
-        validFlag = false;
-    }
-    }
 }
 
 
