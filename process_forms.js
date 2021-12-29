@@ -403,7 +403,7 @@ function answers() {
     if (Gryffindor == maxscore) {
     var g = document.createTextNode("YOU ARE A GRYFFINDOR");   
     answerbox.appendChild(g);
-    var x = document.createElement("images");
+    var x = document.createElement("IMG");
 
     var p = document.createElement("FIGCAPTION");
     var q = document.createTextNode("URL - https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
@@ -420,7 +420,7 @@ function answers() {
     if (Ravenclaw == maxscore) { 
     var r = document.createTextNode("YOU ARE A RAVENCLAW");
     answerbox.appendChild(r);
-    var y = document.createElement("images");
+    var y = document.createElement("IMG");
 
     var n = document.createElement("FIGCAPTION");
     var o = document.createTextNode("URL - https://4.bp.blogspot.com/-FfxqfrKt9UA/V_ENUpNkHuI/AAAAAAABCrE/a16s6N7zEBIsWl8-QAw5oQk9AMMcYFr2gCEw/s1600/ravenclaw.jpg");
@@ -436,7 +436,7 @@ function answers() {
     if (Hufflepuf == maxscore) { 
     var h = document.createTextNode("YOU ARE A HUFFLEPUF");
     answerbox.appendChild(h);
-    var z = document.createElement("images");
+    var z = document.createElement("IMG");
 
     var l = document.createElement("FIGCAPTION");
     var m = document.createTextNode("URL - https://2.bp.blogspot.com/-UcA_FGXVBHQ/V_EN4vkmPFI/AAAAAAABCrM/LjhvcqfOo841_NmuelBqFW40dz7zxG9QQCLcB/s1600/hufflepuff.jpg");
@@ -453,7 +453,7 @@ function answers() {
     if (Slytherin == maxscore) { 
     var s = document.createTextNode("YOU ARE A SLYTHERIN");
     answer.appendChild(s);
-    var a = document.createElement("images");
+    var a = document.createElement("IMG");
 
       var x = document.createElement("FIGCAPTION");
       var t = document.createTextNode("URL - https://1.bp.blogspot.com/-nQCYFpQIJQQ/V_ENVM7G_ZI/AAAAAAABCrI/5FfjP0hh6skEKKbGP5yhd17gqrkeYymUQCEw/s1600/slytherin.jpg");
