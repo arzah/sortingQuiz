@@ -1,0 +1,236 @@
+h1 {
+    color: #2C1210;
+    text-align: center;
+}
+
+body {
+    background-color: #C7A27B;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+}
+
+form {
+    margin: 1em;
+    padding: 1em;
+    font-family: Verdana, Geneva, sans-serif;
+    align-content: center;
+    padding: 10px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    float: left;
+    margin-right: 1em;
+    font-weight: bold;
+}
+
+legend {
+    border: thin dotted #333;
+    color: #FFF;
+    font-weight: bold;
+    background-color: gray;
+
+}
+
+div.whole {
+    padding: 1em;
+    background-color: #ad752b86;
+    width: 48em;
+    display: block;
+    margin-left: 300px;
+
+}
+
+i.fa {
+    font-size: 25px;
+    position: absolute;
+}
+
+button {
+    background-color: #425E3C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #7B98B8;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #ad752b86;
+    padding: 1em;
+    display: grid;
+    width: 45em;
+
+}
+
+fieldset {
+    background-color: #ccc5ae;
+    padding: 10px;
+    align-content: center;
+    width: 35em;
+    margin-left: 70px;
+
+}
+
+fieldset ol {
+    list-style: none;
+    align-content: center;
+
+}
+
+fieldset.submit {
+    border-style: none;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#answer {
+    border: 1px solid #C7A27B;
+    background: #C7A27B;
+    padding: 10px;
+}
+
+#check1 {
+    color: green;
+    display: none;
+    margin-left: 352px;
+    margin-top: -20px;
+
+}
+
+#check2 {
+    color: green;
+    display: none;
+    margin-left: 350px;
+    margin-top: -20px;
+
+}
+
+#check3 {
+    color: green;
+    display: none;
+    margin-left: 305px;
+    margin-top: -22px;
+
+}
+
+#check4 {
+    color: green;
+    display: none;
+    margin-left: 440px;
+    margin-top: -20px;
+
+}
+
+#fail1 {
+    color: red;
+    display: none;
+    margin-left: 330px;
+    margin-top: -22px;
+}
+
+#fail2 {
+    color: red;
+    display: none;
+    margin-left: 330px;
+    margin-top: -22px;
+
+}
+
+#fail3 {
+    color: red;
+    display: none;
+    margin-left: 285px;
+    margin-top: -22px;
+
+}
+
+#fail4 {
+    color: red;
+    display: none;
+    margin-left: 420px;
+    margin-top: -22px;
+
+}
+
+h1 {
+    color: #2C1210;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #8f772f86;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+li a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #adadad;
+    display: block;
+}
+
+.main {
+    margin-left: 160px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+
+.hog a:hover {
+    color: #740001;
+}
+
+.warts a:hover {
+    color: #0E1A40;
+}
+
+.col a:hover {
+    color: #FFF4B1;
+}
+
+.our a:hover {
+    color: #1A472A;
+}

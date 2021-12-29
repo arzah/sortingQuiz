@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Survey-Arzah Laing</title>
+        <script src="js/process_form.js"></script>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <header>
+            <h1>What's Your Hogwarts House?</h1>
+        </header>
+
+        <ul>
+            <div class="hog">
+              <li><a href="#Gryffindor">Gryffindor</a></li>
+              </div>
+              <div class="warts">
+              <li><a href="#Ravenclaw">Ravenclaw</a></li>
+                </div>
+              <div class="col">
+              <li><a href="#Hufflepuf">Hufflepuf</a></li>
+                </div>
+              <div class="our">
+              <li><a href="#Slytherin">Slytherin</a></li>
+                </div>
+            </ul>
+            
+
+        <div class="whole">
+        <form action="/action_page.php" autocomplete="off" method="post" name="info">
+        <div class="container">
+         <fieldset>
+            <legend>Personal Info</legend>
+
+            <div id="q1">
+        <label for="fname">First name:</label>
+           <input type="text" id="fname" name="fname" value="" /><span>
+           </span>
+           <i class="fas fa-check" id="check1"></i>
+                       <i class="fas fa-times" id="fail1"></i>
+           </div>
+                       <br>
+
+    <div id="q2">
+                  <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><span>
+            </span>
+            <i class="fas fa-check" id="check2"></i>
+                       <i class="fas fa-times" id="fail2"></i>
+    </div>
+
+<br>
+    <div id="q3">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><span>
+            </span>
+                    <i class="fas fa-check" id="check3"></i>
+                       <i class="fas fa-times" id="fail3"></i>
+    </div>
+    <br>
+
+        <div id="q4">
+            <label for="address">Student CAH Address</label>
+            <input type="text" id="address" name="address"><span>
+            </span>
+            <i class="fas fa-check" id="check4"></i>
+                       <i class="fas fa-times" id="fail4"></i>
+</div>
+</fieldset>
+
+</div>
+
+
+    <div class="container">
+        <fieldset>
+            <legend>First pick your favourite colour</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="red">Red</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="red" name="colour" value="Red">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="blue">Blue</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="blue" name="colour" value="Blue">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="yellow">Yellow</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="yellow" name="colour" value="Yellow">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="green">Green</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="green" name="colour" value="Green">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+
+    <div class="container">
+        <fieldset>
+            <legend>What is your favourite Hogwarts class?</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="Charms">Charms</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="Charms" name="class" value="Charms">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="def">Defense Against The Dark Arts</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="def" name="class" value=DADA>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="pot">Potions</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="pot" name="class" value="Potions">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="tran">Transfiguration</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="tran" name="class" value="Transfiguration">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>What would your Hogwarts pet be?</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fro">Frog</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="fro" name="pet" value="Frog">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="cat">Cat</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="cat" name="pet" value="Cat">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="owl">Owl</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="owl" name="pet" value="Owl">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="sna">Snake</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="sna" name="pet" value="Snake">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div class="container">
+        <fieldset>
+            <legend>What's your favourite season?</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="spr">Spring</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="spr" name="season" value="Spring">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="sum">Summer</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="sum" name="season" value="Summer">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="wi">Winter</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="wi" name="season" value="Winter">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="aut">Autumn</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="aut" name="season" value="Autumn">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>How would you best describe your personality?</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="spon">Spontaneous. You love going out and you're not afraid to try new things.</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="spon" name="personality" value="Spontaneous">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-25">
+                    <label for="wall">Wallflower. You tend to prefer being alone and can get awkward meeting new people.</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="wall" name="personality" value="Wallflower">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="ind">Indecisive. You can never fully decide on something. Because of this you have a lot of unfinished projects and half
+                        read books.
+                    </label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="ind" name="personality" value="Indecisive">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="res">Resourceful. You know what you want and you have a clear plan of how you want your life to be.</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="res" name="personality" value="Resourceful">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>What's your favourite place in Hogwarts?</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lib">The library</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="lib" name="fav" value="Library">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="hall">The Great Hall</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="hall" name="fav" value="Great Hall">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="room">The Room of Requirements</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="room" name="fav" value="ROR">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="chamber">The Chamber of Secrets</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="chamber" name="fav" value="Chamber">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>What would you do after leaving Hogwarts?</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="prime">Run for Prime Minister. There's a lot of things wrong with the Wizarding World and you want to fix it.</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="prime" name="after" value="Prime Minister">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="travel">Travel. After being in school for so long you want to visit all types of magical communities around the world.</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="travel" name="after" value="Travel">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="hog">Work at Hogwarts. You love the place so much, you decide to stay as a Professor.</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="hog" name="after" value="Hogwarts">
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="shop">Set up shop in Hogsmead or Diagon Alley.</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="shop" name="after" value="Hogsmead/Diagon Alley">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>What's your wand core?</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="pho">Phoenix Feather</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="pho" name="core" value="Phoenix Feather">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="dra">Dragon Heartstring</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="dra" name="core" value="Dragon Heartstring">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="uni">Unicorn Hair</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="uni" name="core" value="Unicorn Hair">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="the">Thestral Hair</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="the" name="core" value="Thestral Hair">
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div class="container">
+        <fieldset>
+            <legend>Finally, pick a deathly hallow</legend>
+            <div class="row">
+                <div class="col-25">
+                    <label for="phil">Philosophers Stone</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="phil" name="death" value="Philosophers Stone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="inv">Invisibility Cloak</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="inv" name="death" value="Invisibility Cloak">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="eld">Elder Wand</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="eld" name="death" value="Elder Wand">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="non">None. You'll be safer without a constant target</label>
+                </div>
+                <div class="col-75">
+                    <input type="radio" id="non" name="death" value="None">
+                </div>
+            </div>
+                <button type="submit" id="submit">Submit</button><span></span>
+        </fieldset>
+    </div>
+</form>
+</div>
+<div id="results"></div>
+<div id="answer"></div>
+    <footer>
+        <p>Created by Arzah Laing</p>
+    </footer>
+    </body>
+</html>
