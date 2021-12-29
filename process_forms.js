@@ -389,7 +389,7 @@ function answers() {
     n.appendChild(o);  
     answer.appendChild(n);
 
-    yTwo.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/hufflepuff.png?raw=true");
+    yTwo.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/hufflepuff.jpg?raw=true");
     yTwo.setAttribute("width", "304");
     yTwo.setAttribute("height", "228");
     yTwo.setAttribute("alt", "Ravenclaw");
