@@ -319,6 +319,8 @@ function answers() {
     answerbox.appendChild(x);
  
     }
+        
+        
     if (Ravenclaw == maxscore && Ravenclaw > Hufflepuf && Ravenclaw > Slytherin && Ravenclaw > Gryffindor) { 
     var r = document.createTextNode("YOU ARE A RAVENCLAW");
     answerbox.appendChild(r);
@@ -335,7 +337,9 @@ function answers() {
     y.setAttribute("alt", "Ravenclaw");
     answerbox.appendChild(y);
     }
-    if (Hufflepuf == maxscore) { 
+        
+        
+    if (Hufflepuf == maxscore && Hufflepuf > Ravenclaw && Hufflepuf > Slytherin && Hufflepuf > Gryffindor) { 
     var h = document.createTextNode("YOU ARE A HUFFLEPUF");
     answerbox.appendChild(h);
     var z = document.createElement("IMG");
@@ -352,6 +356,8 @@ function answers() {
     answerbox.appendChild(z);
 
     }
+        
+        
     if (Slytherin == maxscore) { 
     var s = document.createTextNode("YOU ARE A SLYTHERIN");
     answer.appendChild(s);
@@ -370,16 +376,25 @@ function answers() {
     answer.appendChild(a);
 
     }
+        
+        
     if (Ravenclaw > maxscore && Ravenclaw == Gryffindor || Ravenclaw == Hufflepuf || Ravenclaw == Slytherin) { 
     var r = document.createTextNode("You have attributes of two houses");
     answerbox.appendChild(r);
     var y = document.createElement("IMG");
+    var yTwo = document.createElement("IMG");
 
     var n = document.createElement("FIGCAPTION");
     var o = document.createTextNode("Congratulations!");
     n.appendChild(o);  
     answer.appendChild(n);
 
+    yTwo.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/hufflepuff.png?raw=true");
+    yTwo.setAttribute("width", "304");
+    yTwo.setAttribute("height", "228");
+    yTwo.setAttribute("alt", "Ravenclaw");
+    answerbox.appendChild(yTwo);
+        
     y.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/ravenclaw.png?raw=true");
     y.setAttribute("width", "304");
     y.setAttribute("height", "228");
