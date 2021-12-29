@@ -299,8 +299,7 @@ function answers() {
       if (total == 9){
 
                     var alexander = document.createTextNode("First name is " +document.info.elements["fname"].value +
-                    " and last name is " + document.info.elements["lname"].value + " Your email address is " + document.info.elements["email"].value +
-                    " Your cah address is " + document.info.elements["address"].value);
+                    " and last name is " + document.info.elements["lname"].value + " Your email address is " + document.info.elements["email"].value);
 
                     Peggy.appendChild(alexander);
                   
