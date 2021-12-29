@@ -298,100 +298,100 @@ function answers() {
     
       if (total == 9){
 
-                    var alexander = document.createTextNode("First name is " +document.info.elements["fname"].value +
-                    " and last name is " + document.info.elements["lname"].value + " Your email address is " + document.info.elements["email"].value);
+                    //var alexander = document.createTextNode("First name is " +document.info.elements["fname"].value +
+                    //" and last name is " + document.info.elements["lname"].value + " Your email address is " + document.info.elements["email"].value);
 
-                    Peggy.appendChild(alexander);
+                    //Peggy.appendChild(alexander);
                   
                   
               var radio_buttons = document.info.elements["colour"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var une = document.createTextNode( radio_buttons[x].value + "  button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(une);  
+                    //Peggy.appendChild(une);  
                   }else {
                     var deux = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(deux);  
+                    //Peggy.appendChild(deux);  
                   }
               }
               var radio_buttons = document.info.elements["class"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var trois = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(trois); 
+                    //Peggy.appendChild(trois); 
                   }else {
                     var quatre = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(quatre); 
+                    //Peggy.appendChild(quatre); 
                   }
               }
               var radio_buttons = document.info.elements["pet"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var cinq = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(cinq); 
+                    //Peggy.appendChild(cinq); 
                   }else {
                     var six = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(six);
+                    //Peggy.appendChild(six);
                   }
               }
               var radio_buttons = document.info.elements["season"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var sept = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(sept); 
+                    //Peggy.appendChild(sept); 
                   }else {
                     var huit = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(huit);
+                    //Peggy.appendChild(huit);
                   }
               }
               var radio_buttons = document.info.elements["personality"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var neuf = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(neuf); 
+                    //Peggy.appendChild(neuf); 
                   }else {
                     var dix = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(dix);
+                    //Peggy.appendChild(dix);
                   }
               }
               var radio_buttons = document.info.elements["fav"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var onze = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(onze); 
+                    //Peggy.appendChild(onze); 
                   }else {
                     var douze = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(douze);
+                    //Peggy.appendChild(douze);
                   }
               }
               var radio_buttons = document.info.elements["after"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var trieze = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(trieze); 
+                    //Peggy.appendChild(trieze); 
                   }else {
                     var quatorze = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(quatorze);
+                    //Peggy.appendChild(quatorze);
                   }
               }
               var radio_buttons = document.info.elements["core"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var quinze = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(quinze); 
+                    //Peggy.appendChild(quinze); 
                   }else {
                     var seize = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(seize);
+                    //Peggy.appendChild(seize);
                   }
               }
               var radio_buttons = document.info.elements["death"];
               for (var x = 0; x < radio_buttons.length; x++){
                   if(radio_buttons[x].checked){
                     var dixSept = document.createTextNode(radio_buttons[x].value + " button is checked and the value is  " +radio_buttons[x].value);
-                    Peggy.appendChild(dixSept); 
+                    //Peggy.appendChild(dixSept); 
                   }else {
                     var dixHuit = document.createTextNode(radio_buttons[x].value + " button is not checked ");  
-                    Peggy.appendChild(dixHuit);
+                    //Peggy.appendChild(dixHuit);
                   }
               }
             
