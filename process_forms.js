@@ -325,7 +325,7 @@ function answers() {
     var y = document.createElement("IMG");
 
     var n = document.createElement("FIGCAPTION");
-    var o = document.createTextNode("URL - https://4.bp.blogspot.com/-FfxqfrKt9UA/V_ENUpNkHuI/AAAAAAABCrE/a16s6N7zEBIsWl8-QAw5oQk9AMMcYFr2gCEw/s1600/ravenclaw.jpg");
+    var o = document.createTextNode("Congratulations!");
     n.appendChild(o);  
     answer.appendChild(n);
 
