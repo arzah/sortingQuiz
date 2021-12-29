@@ -414,7 +414,7 @@ function answers() {
     x.setAttribute("width", "304");
     x.setAttribute("height", "228");
     x.setAttribute("alt", "Gryffindor");
-    //answerbox.appendChild(x);
+    answerbox.appendChild(x);
  
     }
     if (Ravenclaw == maxscore) { 
