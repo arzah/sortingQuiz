@@ -381,7 +381,9 @@ function answers() {
     if (Ravenclaw > maxscore && Ravenclaw == Gryffindor || Ravenclaw == Hufflepuf || Ravenclaw == Slytherin) { 
     var r = document.createTextNode("You have attributes of two houses");
     answerbox.appendChild(r);
-    var y = document.createElement("IMG");
+        
+        if (Ravenclaw == Hufflepuf) {
+                var y = document.createElement("IMG");
     var yTwo = document.createElement("IMG");
 
     var n = document.createElement("FIGCAPTION");
@@ -400,6 +402,14 @@ function answers() {
     y.setAttribute("height", "228");
     y.setAttribute("alt", "Ravenclaw");
     answerbox.appendChild(y);
+        }
+        if (Ravenclaw == Slytherin) {
+            
+        }
+        if (Ravenclaw == Gryffindor) {
+
+        }
+        
     }
     
     if (Gryffindor > maxscore && Gryffindor == Hufflepuf || Gryffindor == Ravenclaw || Gryffindor == Slytherin) { 
