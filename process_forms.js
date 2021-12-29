@@ -406,11 +406,11 @@ function answers() {
     var x = document.createElement("images");
 
     var p = document.createElement("FIGCAPTION");
-    var q = document.createTextNode("URL - https://1.bp.blogspot.com/-WV_sb7UjMIo/V_ENTue9HCI/AAAAAAABCrA/XocZ5xwp9mo7DSoaB-qXU_AxLKC7e2DbgCEw/s1600/gryffindor.jpg");
+    var q = document.createTextNode("URL - https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
     p.appendChild(q);  
     answer.appendChild(p);
 
-    x.setAttribute("src", "images/gryffindor.jpg");
+    x.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
     x.setAttribute("width", "304");
     x.setAttribute("height", "228");
     x.setAttribute("alt", "Gryffindor");
