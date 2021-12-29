@@ -341,7 +341,7 @@ function answers() {
     var z = document.createElement("IMG");
 
     var l = document.createElement("FIGCAPTION");
-    var m = document.createTextNode("URL - https://2.bp.blogspot.com/-UcA_FGXVBHQ/V_EN4vkmPFI/AAAAAAABCrM/LjhvcqfOo841_NmuelBqFW40dz7zxG9QQCLcB/s1600/hufflepuff.jpg");
+    var m = document.createTextNode("Congratulations!");
     l.appendChild(m);  
     answer.appendChild(l);
 
@@ -358,7 +358,7 @@ function answers() {
     var a = document.createElement("IMG");
 
       var x = document.createElement("FIGCAPTION");
-      var t = document.createTextNode("URL - https://1.bp.blogspot.com/-nQCYFpQIJQQ/V_ENVM7G_ZI/AAAAAAABCrI/5FfjP0hh6skEKKbGP5yhd17gqrkeYymUQCEw/s1600/slytherin.jpg");
+      var t = document.createTextNode("Congratulations!");
       x.appendChild(t);  
       answer.appendChild(x);
 
