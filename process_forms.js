@@ -307,10 +307,10 @@ function answers() {
     answerbox.appendChild(g);
     var x = document.createElement("IMG");
 
-   /* var p = document.createElement("FIGCAPTION");
-    var q = document.createTextNode("URL - https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
+    var p = document.createElement("FIGCAPTION");
+    var q = document.createTextNode("Congratulations!");
     p.appendChild(q);  
-    answer.appendChild(p); */
+    answer.appendChild(p); 
 
     x.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
     x.setAttribute("width", "304");
