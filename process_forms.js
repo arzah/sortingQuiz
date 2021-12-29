@@ -6,8 +6,6 @@ var works = 0;
 
 
 
-
-
 function setupForm() {
     document.info.fname.addEventListener("focus",fnameFocus, false);
     document.info.fname.addEventListener("blur",fnameBlur, false);
