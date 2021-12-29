@@ -167,7 +167,7 @@ function answers() {
     var Hufflepuf = 0;
     var Slytherin = 0;
     var answerbox = document.getElementById('answer');
-    var Peggy = document.getElementById('results');
+    //var Peggy = document.getElementById('results');
 
 
     
