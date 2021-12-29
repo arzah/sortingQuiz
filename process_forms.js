@@ -345,7 +345,7 @@ function answers() {
     l.appendChild(m);  
     answer.appendChild(l);
 
-    z.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/slytherin.png?raw=true");
+    z.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/hufflepuff.jpg?raw=true");
     z.setAttribute("width", "304");
     z.setAttribute("height", "228");
     z.setAttribute("alt", "Hufflepuf");
