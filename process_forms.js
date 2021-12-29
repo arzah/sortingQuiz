@@ -319,7 +319,7 @@ function answers() {
     answerbox.appendChild(x);
  
     }
-    if (Ravenclaw == maxscore) { 
+    if (Ravenclaw == maxscore && Ravenclaw > Hufflepuf && Ravenclaw > Slytherin && Ravenclaw > Gryffindor) { 
     var r = document.createTextNode("YOU ARE A RAVENCLAW");
     answerbox.appendChild(r);
     var y = document.createElement("IMG");
