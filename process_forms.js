@@ -408,7 +408,7 @@ function answers() {
     var p = document.createElement("FIGCAPTION");
     var q = document.createTextNode("URL - https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
     p.appendChild(q);  
-    //answer.appendChild(p);
+    answer.appendChild(p);
 
     x.setAttribute("src", "https://github.com/arzah/imageHosting/blob/master/gryffindor.jpg?raw=true");
     x.setAttribute("width", "304");
