@@ -296,7 +296,7 @@ function answers() {
 
 
     
-    if (total > 9) {
+    if (total > 8) {
   
 
     var maxscore = Math.max(Gryffindor, Ravenclaw, Hufflepuf, Slytherin);
