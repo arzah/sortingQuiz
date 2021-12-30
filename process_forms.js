@@ -280,7 +280,7 @@ function answers() {
             Hufflepuf++;
           }
           if (choices[i].value == 'Elder Wand') {
-            Slytherin++;
+            Slytherin =+ 2;
           }
 
       }
