@@ -321,7 +321,7 @@ function answers() {
     }
         
         
-    if (Ravenclaw == maxscore && Ravenclaw > Hufflepuf && Ravenclaw > Slytherin && Ravenclaw > Gryffindor) { 
+    if (Ravenclaw == maxscore) { 
     var r = document.createTextNode("YOU ARE A RAVENCLAW");
     answerbox.appendChild(r);
     var y = document.createElement("IMG");
@@ -339,7 +339,7 @@ function answers() {
     }
         
         
-    if (Hufflepuf == maxscore && Hufflepuf > Ravenclaw && Hufflepuf > Slytherin && Hufflepuf > Gryffindor) { 
+    if (Hufflepuf == maxscore) { 
     var h = document.createTextNode("YOU ARE A HUFFLEPUF");
     answerbox.appendChild(h);
     var z = document.createElement("IMG");
