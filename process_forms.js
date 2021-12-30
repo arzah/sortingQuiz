@@ -175,49 +175,49 @@ function answers() {
     for (i=0; i<choices.length; i++) {
       if (choices[i].checked) {
         if (choices[i].value == 'Red') {
-          Gryffindor++;
+          Gryffindor+=0.2;
         }
         if (choices[i].value == 'Blue') {
           Ravenclaw++;
         }
         if (choices[i].value == 'Yellow') {
-          Hufflepuf++;
+          Hufflepuf+=0.2;
         }
         if (choices[i].value == 'Green') {
-          Slytherin++;
+          Slytherin+= 0.1;
         }
         if (choices[i].value == 'DADA') {
-            Gryffindor++;
+            Gryffindor+=0.2;
           }
           if (choices[i].value == 'Charms') {
             Ravenclaw++;
           }
           if (choices[i].value == 'Transfiguration') {
-            Hufflepuf++;
+            Hufflepuf+=0.2;
           }
           if (choices[i].value == 'Potions') {
             Slytherin++;
           }
           if (choices[i].value == 'Frog') {
-            Gryffindor++;
+            Gryffindor+= 0.1;
           }
           if (choices[i].value == 'Owl') {
             Ravenclaw++;
           }
           if (choices[i].value == 'Cat') {
-            Hufflepuf++;
+            Hufflepuf+= 0.1;
           }
           if (choices[i].value == 'Snake') {
             Slytherin++;
           }
           if (choices[i].value == 'Summer') {
-            Gryffindor++;
+            Gryffindor+=0.2;
           }
           if (choices[i].value == 'Autumn') {
             Ravenclaw++;
           }
           if (choices[i].value == 'Winter') {
-            Hufflepuf++;
+            Hufflepuf+=0.2;
           }
           if (choices[i].value == 'Spring') {
             Slytherin++;
@@ -226,7 +226,7 @@ function answers() {
             Gryffindor++;
           }
           if (choices[i].value == 'Indecisive') {
-            Ravenclaw++;
+            Ravenclaw+= 0.1;
           }
           if (choices[i].value == 'Wallflower') {
             Hufflepuf++;
@@ -235,7 +235,7 @@ function answers() {
             Slytherin++;
           }
           if (choices[i].value == 'ROR') {
-            Gryffindor++;
+            Gryffindor+= 0.1;
           }
           if (choices[i].value == 'Library') {
             Ravenclaw++;
@@ -244,7 +244,7 @@ function answers() {
             Hufflepuf++;
           }
           if (choices[i].value == 'Chamber') {
-            Slytherin++;
+            Slytherin+= 0.1;
           }
           if (choices[i].value == 'Travel') {
             Gryffindor++;
@@ -259,7 +259,7 @@ function answers() {
             Slytherin++;
           }
           if (choices[i].value == 'Phoenix Feather') {
-            Gryffindor++;
+            Gryffindor+= 0.1;
           }
           if (choices[i].value == 'Thestral Hair') {
             Ravenclaw++;
@@ -268,7 +268,7 @@ function answers() {
             Hufflepuf++;
           }
           if (choices[i].value == 'Dragon Heartstring') {
-            Slytherin++;
+              Slytherin += 0.1;
           }
           if (choices[i].value == 'Invisibility Cloak') {
             Gryffindor+=0.4;
@@ -296,7 +296,7 @@ function answers() {
 
 
     
-    if (total > 8) {
+    if (total > 3) {
   
 
     var maxscore = Math.max(Gryffindor, Ravenclaw, Hufflepuf, Slytherin);
