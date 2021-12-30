@@ -271,16 +271,16 @@ function answers() {
             Slytherin++;
           }
           if (choices[i].value == 'Invisibility Cloak') {
-            Gryffindor++;
+            Gryffindor+=0.4;
           }
           if (choices[i].value == 'Philosophers Stone') {
-            Ravenclaw++;
+            Ravenclaw+=0.3;
           }
           if (choices[i].value == 'None') {
-            Hufflepuf++;
+            Hufflepuf+=0.2;
           }
           if (choices[i].value == 'Elder Wand') {
-            Slytherin =+ 2;
+            Slytherin += 0.1;
           }
 
       }
@@ -296,7 +296,7 @@ function answers() {
 
 
     
-    if (total == 9) {
+    if (total > 9) {
   
 
     var maxscore = Math.max(Gryffindor, Ravenclaw, Hufflepuf, Slytherin);
